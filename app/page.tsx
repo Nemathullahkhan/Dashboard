@@ -1,7 +1,10 @@
-import { Button } from "@/components/ui/button";
+
+import LoginForm from "./auth/LoginForm";
 
 export default function Home() {
   return (
-    <Button>dshalkjhfdk</Button>
+    <>
+      <LoginForm />
+    </>
   );
 }
